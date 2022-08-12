@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bloom Room | Florist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&family=Lora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="navbar__logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link mx-3" href="#offer">Offer</a>
+                    <a class="nav-link mx-3" href="#about">About us</a>
+                    <a class="nav-link mx-3" href="#faq">FAQ</a>
+                    <a class="nav-link mx-3" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header__box">
+            <h1 class="header__box-title">The Bloom Room</h1>
+            <p class="header__box-text">Flowers are our inspiration to make your day special.</p>
+            <a href="#offer" class="header__box-btn btn">Our offer</a>
+        </div>
+        <div class="shadow"></div>
+    </header>
+
+    <main class="main">
+        <section class="section offer" id="offer">
+            <section class="offer-favorites">
+                <div class="section__box">
+                    <h2 class="section__box-heading">Our favorites</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="offer-favorites__cards">
+                        <div class="offer-favorites__card" data-aos="flip-left" data-aos-offset="400">
+                            <div class="offer-favorites__card-top">
+                                <img src="img/favorites-1.jpg" alt="A bouquet of pink peonies.">
+                            </div>
+                            <div class="offer-favorites__card-bottom">
+                                <h4 class="offer-favorites__card-bottom-title">Peonies</h4>
+                                <p class="offer-favorites__card-bottom-text">Considered as a good omen for a happy
+                                    relationship.</p>
+                                <button class="offer-favorites__card-bottom-btn btn">Buy</button>
+                            </div>
+                        </div>
+                        <div class="offer-favorites__card" data-aos="flip-left" data-aos-delay="200"
+                            data-aos-offset="400">
+                            <div class="offer-favorites__card-top">
+                                <img src="img/favorites-2.jpg" alt="A bouquet of pink and purple tulips.">
+                            </div>
+                            <div class="offer-favorites__card-bottom">
+                                <h4 class="offer-favorites__card-bottom-title">Tulips</h4>
+                                <p class="offer-favorites__card-bottom-text">One on the most loved and widely known
+                                    types of flowers.</p>
+                                <button class="offer-favorites__card-bottom-btn btn">Buy</button>
+                            </div>
+                        </div>
+                        <div class="offer-favorites__card" data-aos="flip-left" data-aos-delay="400"
+                            data-aos-offset="400">
+                            <div class="offer-favorites__card-top">
+                                <img src="img/favorites-3.jpg" alt="A bouquet of lavender.">
+                            </div>
+                            <div class="offer-favorites__card-bottom">
+                                <h4 class="offer-favorites__card-bottom-title">Lavender</h4>
+                                <p class="offer-favorites__card-bottom-text">Represent purity, devotion, serenity, grace
+                                    and calmness.</p>
+                                <button class="offer-favorites__card-bottom-btn btn">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer-seasonal">
+                <div class="section__box">
+                    <h2 class="section__box-heading">Seasonal</h2>
+                </div>
+                <div class="wrapper">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/seasonal-spring.jpg" class="d-block w-100"
+                                    alt="Photo of a spring bouquet which includes beautiful, pink tulips.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-title">Spring</h5>
+                                    <p class="carousel-text">Beautiful and fresh looking tulips - perfect for Mother's
+                                        Day</p>
+                                    <a href="#" class="carousel-btn btn">See more</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/seasonal-summer.jpg" class="d-block w-100"
+                                    alt="Photo of a spring bouquet which includes goregous, orange roses.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-title">Summer</h5>
+                                    <p class="carousel-text">Goregous orange roses - your partner is going to love them
+                                    </p>
+                                    <a href="#" class="carousel-btn btn">See more</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/seasonal-autumn.jpg" class="d-block w-100"
+                                    alt="Photo of a spring bouquet which includes stunning, dark red and yellow flowers.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-title">Autumn</h5>
+                                    <p class="carousel-text">Stunning, dark flowers which perfectly suit the autumn vibe
+                                    </p>
+                                    <a href="#" class="carousel-btn btn">See more</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/seasonal-winter.jpg" class="d-block w-100"
+                                    alt="Photo of a spring bouquet which includes tiny, white flowers.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-title">Winter</h5>
+                                    <p class="carousel-text">White and delicate, just like winter's first snow</p>
+                                    <a href="#" class="carousel-btn btn">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="offer-seasonal__cards">
+                        <div class="offer-seasonal__card">
+                            <div class="offer-seasonal__card-box">
+                                <h4 class="offer-seasonal__card-box-title">Spring</h4>
+                                <p class="offer-seasonal__card-box-text">Beautiful and fresh looking tulips - perfect
+                                    for Mother's
+                                    Day</p>
+                                <a href="#" class="offer-seasonal__card-box-btn btn">See more</a>
+                            </div>
+                        </div>
+                        <div class="offer-seasonal__card offer-seasonal__card--summer">
+                            <div class="offer-seasonal__card-box">
+                                <h4 class="offer-seasonal__card-box-title">Summer</h4>
+                                <p class="offer-seasonal__card-box-text">Goregous orange roses - your partner is going
+                                    to love them</p>
+                                <a href="#" class="offer-seasonal__card-box-btn btn">See more</a>
+                            </div>
+                        </div>
+                        <div class="offer-seasonal__card offer-seasonal__card--autumn">
+                            <div class="offer-seasonal__card-box">
+                                <h4 class="offer-seasonal__card-box-title">Autumn</h4>
+                                <p class="offer-seasonal__card-box-text">Stunning, dark flowers which perfectly suit the
+                                    autumn vibe</p>
+                                <a href="#" class="offer-seasonal__card-box-btn btn">See more</a>
+                            </div>
+                        </div>
+                        <div class="offer-seasonal__card offer-seasonal__card--winter">
+                            <div class="offer-seasonal__card-box">
+                                <h4 class="offer-seasonal__card-box-title">Winter</h4>
+                                <p class="offer-seasonal__card-box-text">White and delicate, just like winter's first
+                                    snow</p>
+                                <a href="#" class="offer-seasonal__card-box-btn btn">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer-personalized">
+                <div class="section__box">
+                    <h2 class="section__box-heading">Personalized</h2>
+                </div>
+                <div class="wrapper">
+                    <p class="offer-personalized__text">Would you like a bouquet of your favourite flowers? Or maybe you
+                        need flowery decorations for a special occassion?</p>
+                    <p class="offer-personalized__text">We have a wide offer when it comes to personalized orders. If
+                        you are interested, contact us on our email address and describe your idea. Please note, that
+                        <span class="bold-text">customized orders are not refundable.</span>
+                    </p>
+                    <div class="offer-personalized__images">
+                        <img src="img/personalized-1.jpg" alt="" class="img-fluid offer-personalized__img"
+                            data-aos="zoom-in" data-aos-offset="500">
+                        <img src="img/personalized-2.jpg" alt="" class="img-fluid offer-personalized__img"
+                            data-aos="zoom-in" data-aos-delay="200" data-aos-offset="500">
+                        <img src="img/personalized-3.jpg" alt="" class="img-fluid offer-personalized__img"
+                            data-aos="zoom-in" data-aos-delay="400" data-aos-offset="500">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="section newsletter">
+            <div class="wrapper">
+                <h3 class="newsletter__title">Sign up to our newsletter</h3>
+                <p class="newsletter__text">You will be immediately informed about our latest offers and discounts.</p>
+                <div class="newsletter__box">
+                    <input type="email" class="newsletter__input" placeholder="Email address">
+                    <button class="newsletter__btn btn">Sign up</button>
+                </div>
+            </div>
+            <div class="shadow"></div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section__box">
+                <h2 class="section__box-heading">About us</h2>
+            </div>
+            <div class="wrapper">
+                <div class="about__card">
+                    <h4 class="about__card-title">Then...</h4>
+                    <p class="about__card-text">The Blooming Room was firstly established in early 2000s. Back then, we
+                        were working only during the spring and summer period. Our flower compositions were noticed by a
+                        local photographer, who then wanted to include some of our decorations in his photoshoots.
+                        Thanks to it, our flower shop became immensly popular.</p>
+                </div>
+                <div class="about__card">
+                    <h4 class="about__card-title about__card-title--right">...Today</h4>
+                    <p class="about__card-text">Now, more than 20 years later, The Blooming Bloom is one of the most
+                        renowed florists shops in the world. Our craft has been mentioned in famous magazines and we
+                        received many orders from all over the planet. We focus on constantly improving our work and
+                        delivering flowers that will make any occassion unforgettable.</p>
+                </div>
+                <div class="about__accolades">
+                    <div class="about__accolades-card">
+                        <i class="bi bi-patch-check about__accolades-card-icon"></i>
+                        <p class="about__accolades-card-text">All of our employees are certified</p>
+                    </div>
+                    <div class="about__accolades-card">
+                        <i class="bi bi-trophy about__accolades-card-icon"></i>
+                        <p class="about__accolades-card-text">We have won over 100 florist contests</p>
+                    </div>
+                    <div class="about__accolades-card">
+                        <i class="bi bi-cash about__accolades-card-icon"></i>
+                        <p class="about__accolades-card-text">5% of every sold item is given to a local dog shelter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section faq" id="faq">
+            <div class="section__box">
+                <h2 class="section__box-heading">FAQ</h2>
+            </div>
+            <div class="wrapper">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What days and hours are you open?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We are open from <span class="bold-text">Monday to
+                                    Friday</span>, from <span class="bold-text">9am till 5pm</span>.
+                                <br><br>
+                                During weekends and public holidays, we are closed.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                How can I contact you?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">There are three ways to contact us.
+                                <br><br>
+                                Firstly, you can send us a message to one of our e-mail addresses: <span
+                                    class="bold-text">contact@tbr.com</span> or <span
+                                    class="bold-text">order@tbr.com</span>. Please note that it may take up to <span
+                                    class="bold-text">48 hours</span> to receive a response.
+                                <br><br>
+                                During our opening hours, you can also call us on +48 000 000 000.
+                                <br><br>
+                                Lastly, you are more than welcomed to pay us a visit in person.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What types of flower compositions are available?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Our offer has a very wide range.
+                                <br><br>
+                                We sell individual flowers and plants, bouquets, decorations and accessories. There are
+                                also compositions dedicated to current time of the year.
+                                <br><br>
+                                What is more, we also do <span class="bold-text">personalized orders</span>. If you have
+                                a unique idea, you can contact us via e-mail.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Do you have any special offers or coupon codes?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Sing up for our <span class="bold-text">newsletter</span> to
+                                receive special notification about incoming discounts.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                What if I don't like my order?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">All products bought in our store can be returned <span
+                                    class="bold-text">within 48 hours after the purchase was made</span>.
+                                <br><br>
+                                <span class="bold-text">Personalized orders cannot be returned or refunded.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                What is the pricing of a personalized order?
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><span class="bold-text">It depends on many different
+                                    factors</span> - what type of flower
+                                composition you would like to order, what flowers or plants will be used and where it
+                                will be delivered.
+                                <br><br>
+                                Pricing for personalized orders in discussed throughout the whole process and once the
+                                customer agrees, we start fulfilling the order.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="wrapper">
+                <div class="contact__cards">
+                    <div class="contact__card">
+                        <i class="bi bi-building contact__card-icon"></i>
+                        <h4 class="contact__card-title">Address</h4>
+                        <p class="contact__card-text">85 Flower Shower st.</p>
+                        <p class="contact__card-text">00-000</p>
+                        <p class="contact__card-text">Green City</p>
+                    </div>
+                    <div class="contact__card">
+                        <i class="bi bi-envelope contact__card-icon"></i>
+                        <h4 class="contact__card-title">Contact</h4>
+                        <p class="contact__card-text">contact@tbr.com</p>
+                        <p class="contact__card-text">order@tbr.com</p>
+                        <p class="contact__card-text">+48 000 000 000</p>
+                    </div>
+                </div>
+                <form class="contact__form">
+                    <div class="contact__form-inputs">
+                        <input type="text" class="contact__form-input" placeholder="Name">
+                        <input type="email" class="contact__form-input" placeholder="Email address">
+                    </div>
+                    <textarea class="contact__form-input contact__form-input--textarea" placeholder="Your message"
+                        rows="10"></textarea>
+                    <button class="contact__form-btn btn">Send</button>
+                </form>
+            </div>
+            <div class="shadow"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__socials">
+            <a href="#" class="footer__socials-link"><i class="bi bi-instagram footer__socials-icon"></i></a>
+            <a href="#" class="footer__socials-link"><i class="bi bi-facebook footer__socials-icon"></i></a>
+            <a href="#" class="footer__socials-link"><i class="bi bi-twitter footer__socials-icon"></i></a>
+        </p>
+        <p class="footer__text">&copy; <span class="footer-year"></span> The Bloom Room</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@mixin flex($display, $alignItems, $justifyContent, $direction) {
+	display: $display;
+	align-items: $alignItems;
+	justify-content: $justifyContent;
+	flex-direction: $direction;
+}
+
+@mixin background {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+@mixin input {
+	width: 100%;
+	background: none;
+	padding: 0.5em 1em;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 1px solid transparent;
+	border-radius: 1rem;
+	outline: none;
+	color: $white-color;
+	font-family: 'Figtree', sans-serif;
+	line-height: 1.5;
+
+	&:focus {
+		border: 1px solid $white-color;
+	}
+
+	&::placeholder {
+		color: $light-color;
+		font-family: 'Figtree', sans-serif;
+		line-height: 1.5;
+	}
+}
